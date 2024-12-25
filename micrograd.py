@@ -53,7 +53,3 @@ class Value:
         for node in ts:
             node._backward()
 
-a = Value(-2 ,label = "a")
-b = Value(-3, label = "b")
-c = Value(10, label = "c")
-d = a*b+c
